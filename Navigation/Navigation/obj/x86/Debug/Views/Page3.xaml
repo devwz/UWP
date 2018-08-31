@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="Navigation.Views.Page3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Navigation.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#323232">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.05*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.ColumnSpan="2">
+            <CommandBar>
+                <AppBarButton x:ConnectionId='2' Icon="Home" Label="Home" Foreground="#C7F464"                            />
+                <AppBarButton x:ConnectionId='3' Icon="Home" Label="Home" Foreground="#C7F464"                            />
+                <AppBarButton x:ConnectionId='4' Icon="Home" Label="Home" Foreground="#C7F464"                            />
+            </CommandBar>
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="2" Margin="0,20,0,0">
+            <Grid>
+                <TextBlock FontWeight="Light" Text="3" FontSize="48" Foreground="#C7F464" />
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Page>
+

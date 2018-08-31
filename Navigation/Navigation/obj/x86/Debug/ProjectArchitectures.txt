@@ -1,0 +1,1 @@
+D:\DevWz\UWP\Navigation\Navigation\Navigation.csproj;x86
