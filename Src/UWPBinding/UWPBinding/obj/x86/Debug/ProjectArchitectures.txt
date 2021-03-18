@@ -1,1 +1,0 @@
-D:\DevWz\UWP\UWPBinding\UWPBinding\UWPBinding.csproj;x86
